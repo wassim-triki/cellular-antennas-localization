@@ -9,7 +9,7 @@ shared_parameters = {
     "GRID_SIZE": 500,       # Size of the area (100x100 units)
     "NUM_USERS": 100,        # Number of users to be randomly distributed
     "NUM_ANTENNAS": 20,      # Number of antennas to place
-    "COVERAGE_RADIUS": 20   # Coverage radius of each antenna
+    "COVERAGE_RADIUS": 50   # Coverage radius of each antenna
 }
 
 # Generate random user positions within the grid
