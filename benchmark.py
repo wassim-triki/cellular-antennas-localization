@@ -135,11 +135,11 @@ def plot_results_three_algorithms(
     greedy_antenna_xs, greedy_antenna_ys = zip(*greedy_antennas)
     ax1.scatter(
         greedy_antenna_xs, greedy_antenna_ys,
-        c='green', label='Antennas'
+        c='red', label='Antennas'
     )
     for antenna in greedy_antennas:
         circle = plt.Circle(
-            antenna, COVERAGE_RADIUS, color='green',
+            antenna, COVERAGE_RADIUS, color='red',
             fill=False, alpha=0.3
         )
         ax1.add_artist(circle)
@@ -155,11 +155,11 @@ def plot_results_three_algorithms(
     gd_antenna_xs, gd_antenna_ys = zip(*gd_antennas)
     ax2.scatter(
         gd_antenna_xs, gd_antenna_ys,
-        c='purple', label='Antennas'
+        c='red', label='Antennas'
     )
     for antenna in gd_antennas:
         circle = plt.Circle(
-            antenna, COVERAGE_RADIUS, color='purple',
+            antenna, COVERAGE_RADIUS, color='red',
             fill=False, alpha=0.3
         )
         ax2.add_artist(circle)
